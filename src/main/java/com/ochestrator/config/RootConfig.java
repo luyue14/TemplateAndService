@@ -1,4 +1,4 @@
-package com.spring.config;
+package com.ochestrator.config;
 
 public class RootConfig {
 

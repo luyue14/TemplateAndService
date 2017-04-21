@@ -1,4 +1,4 @@
-package com.spring.config;
+package com.ochestrator.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

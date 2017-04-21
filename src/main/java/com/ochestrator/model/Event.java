@@ -1,5 +1,5 @@
 
-package com.spring.model;
+package com.ochestrator.model;
 
 public class Event {
 	private String blueprint_id;

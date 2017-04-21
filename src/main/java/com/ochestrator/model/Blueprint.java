@@ -1,4 +1,4 @@
-package com.spring.model;
+package com.ochestrator.model;
 
 import java.util.Date;
 import java.util.Map;

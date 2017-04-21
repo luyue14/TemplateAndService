@@ -1,4 +1,4 @@
-package com.spring.mongo;
+package com.ochestrator.mongo;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;

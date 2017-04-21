@@ -1,4 +1,4 @@
-package com.spring.model;
+package com.ochestrator.model;
 
 import org.springframework.http.HttpEntity;
 

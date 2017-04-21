@@ -1,4 +1,4 @@
-package com.spring.mongo;
+package com.ochestrator.mongo;
 
 import java.util.List;
 
