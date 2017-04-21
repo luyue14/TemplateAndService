@@ -1,18 +1,21 @@
 package com.orchestrator.model;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
-@Component
 public class Blueprint {
-	private String id;
-	private String description;
-	private String main_file_name;
-	private Map<String, String> plan;
-	private Date create_at;
-	private Date updatated_at;
+	
+	@Id
+	private String id = new String();
+	private String description = new String();
+	private String main_file_name = new String();
+	private Map<String, String> plan = new HashMap<String, String>();
+	private Date create_at = new Date();
+	private Date updatated_at = new Date();
 	
 	public String getId() {
 		return id;
@@ -49,6 +52,11 @@ public class Blueprint {
 	}
 	public void setUpdatated_at(Date updatated_at) {
 		this.updatated_at = updatated_at;
+	}
+	@Override
+	public String toString() {
+		return "Blueprint [id=" + id + ", description=" + description + ", main_file_name=" + main_file_name + ", plan="
+				+ plan + ", create_at=" + create_at + ", updatated_at=" + updatated_at + "]";
 	}
 	
 	
