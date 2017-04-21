@@ -1,4 +1,4 @@
-package com.ochestrator.service;
+package com.orchestrator.service;
 
 import org.springframework.stereotype.Service;
 

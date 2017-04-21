@@ -1,4 +1,4 @@
-package com.ochestrator.model;
+package com.orchestrator.model;
 
 public class Version {
 	private long date;

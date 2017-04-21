@@ -1,4 +1,4 @@
-package com.ochestrator.model;
+package com.orchestrator.model;
 
 import java.util.Date;
 import java.util.Map;

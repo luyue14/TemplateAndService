@@ -1,4 +1,4 @@
-package com.ochestrator.mongo;
+package com.orchestrator.mongo;
 
 import java.util.List;
 
@@ -12,6 +12,6 @@ public interface BlueprintRepository extends MongoRepository<Blueprint, String> 
 	
 	public Blueprint save(Blueprint blueprint);
 	public List<Blueprint> findAll();
-	public List<Blueprint> findByVnid(int vnid);
+	public List<Blueprint> findByVnid(int id);
 	
 }

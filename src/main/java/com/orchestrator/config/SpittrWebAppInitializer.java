@@ -1,4 +1,4 @@
-package com.ochestrator.config;
+package com.orchestrator.config;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class SpittrWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
