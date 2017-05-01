@@ -19,5 +19,9 @@ public class Service {
 	public void setDisplay_name(String display_name) {
 		this.display_name = display_name;
 	}
+	@Override
+	public String toString() {
+		return "Service [instances=" + instances + ", display_name=" + display_name + "]";
+	}
 	
 }

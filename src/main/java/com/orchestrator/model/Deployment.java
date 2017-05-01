@@ -77,4 +77,11 @@ public class Deployment {
 	}
 	
 	
+	@Override
+	public String toString() {
+		return "Deployment [id=" + id + ", blueprint_id=" + blueprint_id + ", create_at=" + create_at + ", updated_at="
+				+ updated_at + ", workflows=" + workflows + ", inputs=" + inputs + ", policy_types=" + policy_types
+				+ ", policy_triggers=" + policy_triggers + ", groups=" + groups + ", outputs=" + outputs + "]";
+	}
+	
 }

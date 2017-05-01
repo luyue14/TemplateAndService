@@ -101,6 +101,14 @@ public class Event {
 	public void setLevel(String level) {
 		this.level = level;
 	}
+	@Override
+	public String toString() {
+		return "Event [blueprint_id=" + blueprint_id + ", deployment_id=" + deployment_id + ", execution_id="
+				+ execution_id + ", workflow_id=" + workflow_id + ", node_name=" + node_name + ", node_instance_id="
+				+ node_instance_id + ", operation=" + operation + ", timestamp=" + timestamp + ", reported_timestamp="
+				+ reported_timestamp + ", message=" + message + ", type=" + type + ", event_type=" + event_type
+				+ ", logger=" + logger + ", level=" + level + "]";
+	}
 	
 	
 }

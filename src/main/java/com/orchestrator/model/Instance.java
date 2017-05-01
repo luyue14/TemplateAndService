@@ -50,6 +50,11 @@ public class Instance {
 	public void setSubState(String subState) {
 		SubState = subState;
 	}
+	@Override
+	public String toString() {
+		return "Instance [LoadState=" + LoadState + ", Description=" + Description + ", state=" + state + ", MainPID="
+				+ MainPID + ", Id=" + Id + ", ActiveState=" + ActiveState + ", SubState=" + SubState + "]";
+	}
 	
 	
 }

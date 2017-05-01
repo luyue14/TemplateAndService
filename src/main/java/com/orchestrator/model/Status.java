@@ -17,6 +17,10 @@ public class Status {
 	public void setServices(List<Service> services) {
 		this.services = services;
 	}
+	@Override
+	public String toString() {
+		return "Status [status=" + status + ", services=" + services + "]";
+	}
 	
 	
 }

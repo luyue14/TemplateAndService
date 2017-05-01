@@ -30,6 +30,10 @@ public class Snapshot {
 	public void setError(String error) {
 		this.error = error;
 	}
+	@Override
+	public String toString() {
+		return "Snapshot [id=" + id + ", created_at=" + created_at + ", status=" + status + ", error=" + error + "]";
+	}
 	
 	
 }

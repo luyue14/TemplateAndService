@@ -53,6 +53,12 @@ public class NodeInstance {
 	public void setVersion(int version) {
 		this.version = version;
 	}
+	@Override
+	public String toString() {
+		return "NodeInstance [id=" + id + ", deployment=" + deployment + ", host_id=" + host_id
+				+ ", runtime_properties=" + runtime_properties + ", relationships=" + relationships + ", state=" + state
+				+ ", version=" + version + "]";
+	}
 	
 	
 }

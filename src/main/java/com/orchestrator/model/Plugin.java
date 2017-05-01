@@ -96,6 +96,15 @@ public class Plugin {
 	public void setUploaded_at(long uploaded_at) {
 		this.uploaded_at = uploaded_at;
 	}
+	@Override
+	public String toString() {
+		return "Plugin [id=" + id + ", package_name=" + package_name + ", archive_name=" + archive_name
+				+ ", package_source=" + package_source + ", package_version=" + package_version
+				+ ", supported_platform=" + supported_platform + ", distribution=" + distribution
+				+ ", distribution_version=" + distribution_version + ", distribution_release=" + distribution_release
+				+ ", wheels=" + wheels + ", excluded_wheels=" + excluded_wheels + ", supported_py_versions="
+				+ supported_py_versions + ", uploaded_at=" + uploaded_at + "]";
+	}
 	
 	
 }

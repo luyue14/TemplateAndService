@@ -67,6 +67,12 @@ public class Execution {
 	public void setIs_system_workflow(boolean is_system_workflow) {
 		this.is_system_workflow = is_system_workflow;
 	}
+	@Override
+	public String toString() {
+		return "Execution [id=" + id + ", workflow_id=" + workflow_id + ", blueprint_id=" + blueprint_id
+				+ ", deployment_id=" + deployment_id + ", status=" + status + ", error=" + error + ", created_at="
+				+ created_at + ", parameters=" + parameters + ", is_system_workflow=" + is_system_workflow + "]";
+	}
 	
 	
 }

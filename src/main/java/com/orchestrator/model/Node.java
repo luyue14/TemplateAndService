@@ -105,6 +105,15 @@ public class Node {
 	public void setRelationships(List<Object> relationships) {
 		this.relationships = relationships;
 	}
+	@Override
+	public String toString() {
+		return "Node [id=" + id + ", deployment_id=" + deployment_id + ", blueprint_id=" + blueprint_id + ", type="
+				+ type + ", type_hierarchy=" + type_hierarchy + ", number_of_instances=" + number_of_instances
+				+ ", planned_number_of_instances=" + planned_number_of_instances + ", deploy_number_of_instances="
+				+ deploy_number_of_instances + ", host_id=" + host_id + ", properties=" + properties + ", operations="
+				+ operations + ", plugins=" + plugins + ", plugins_to_install=" + plugins_to_install
+				+ ", relationships=" + relationships + "]";
+	}
 	
 	
 }

@@ -29,6 +29,10 @@ public class Version {
 	public void setBuild(String build) {
 		this.build = build;
 	}
+	@Override
+	public String toString() {
+		return "Version [date=" + date + ", commit=" + commit + ", version=" + version + ", build=" + build + "]";
+	}
 	
 	
 }

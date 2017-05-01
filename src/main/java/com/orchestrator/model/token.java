@@ -10,6 +10,11 @@ public class token {
 	public void setValue(String value) {
 		this.value = value;
 	}
+
+	@Override
+	public String toString() {
+		return "token [value=" + value + "]";
+	}
 	
 	
 }

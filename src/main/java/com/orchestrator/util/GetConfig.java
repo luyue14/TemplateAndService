@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class GetConfig{
 	
-	Logger logger = LoggerFactory.getLogger(GetConfig.class);
+	private Logger logger = LoggerFactory.getLogger(GetConfig.class);
 
 	private  Properties config=null;  
 	private String Ip;
