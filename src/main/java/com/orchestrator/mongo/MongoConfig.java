@@ -7,7 +7,8 @@ import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.mongodb.ServerAddress;
-import com.spring.util.GetConfig;
+import com.orchestrator.util.GetConfig;
+
 import org.slf4j.Logger;
 
 
